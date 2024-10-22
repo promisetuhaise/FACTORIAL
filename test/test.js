@@ -47,7 +47,7 @@ function fibonacci(n) {
     if (n === 0) return 0;
     if (n === 1) return 1;
   
-    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive calls
+    return fibonacci(n - 1) + fibonacci(n - 2); 
   }
   
   module.exports = fibonacci;
@@ -57,8 +57,8 @@ function fibonacci(n) {
 
   //facorial
   // test/factorial.test.js
-const assert = require('chai').assert; // Import assert from Chai
-const factorial = require('../factorial'); // Import the factorial function
+const assert = require('chai').assert; 
+const factorial = require('../factorial'); 
 
 describe('Factorial Function', () => {
   
